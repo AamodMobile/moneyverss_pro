@@ -1,4 +1,4 @@
-package com.aamod.moneyverss_pro
+package com.finance.moneyversspartner
 
 import io.flutter.embedding.android.FlutterActivity
 

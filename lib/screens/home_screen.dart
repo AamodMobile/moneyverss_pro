@@ -134,11 +134,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                   itemBuilder:
                                       (BuildContext context, int index) {
                                     return ItemLoanType(
-                                      loanTypeList:
-                                          contextCtrl.loanTypeList[index],
-                                      lastLoanType:
-                                          contextCtrl.loanMainTypeList[
-                                              contextCtrl.loanTypeList.length],
+                                      loanTypeList: contextCtrl.loanTypeList[index],
+                                      lastLoanType: contextCtrl.loanMainTypeList[index],
                                     );
                                   },
                                 ),
